@@ -1,0 +1,63 @@
+/* Body Background */
+body {
+    background-image: url('recipedetail.jpeg');
+}
+
+/* Recipe Detail Container */
+.recipe-detail {
+    background: #fff;
+    border-radius: 1px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border:2px solid black
+}
+
+/* Recipe Image */
+.recipe-image {
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: aquamarine;
+}
+
+/* Information Box */
+.info-box {
+    font-size: 1rem;
+    color: #333;
+    background: #f8f9fa;
+    padding: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Headers */
+h2, h4 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Ingredients List */
+.ingredients-list, .instructions-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+/* Instructions List */
+.instructions-list {
+    list-style-type: decimal;
+}
+
+/* Tips Section */
+.tips {
+    background: #e9f7ef;
+    padding: 15px;
+    border-left: 4px solid #28a745;
+    font-style: italic;
+    color: #333;
+    border-radius: 4px;
+    margin-top: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}

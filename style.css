@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  background-image: url('bgimage.jpeg'); /* Replace with your own background image path */
+  background-size: cover;
+  background-attachment: fixed;
+  color:black;
+}
+
+/* Navbar */
+.navbar {
+  background-color:black; /* Semi-transparent background */
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color:greenyellow!important; /* Accent color on hover */
+}
+
+/* Hero Section */
+.jumbotron {
+  background-color:antiquewhite;
+  padding: 1rem;
+  margin-top: 50px;
+  border-radius: 150px;
+}
+
+.jumbotron h1 {
+  color:red;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color:black;
+}
+
+/* Featured Recipes Section */
+h2.text-center {
+  color:black;
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+.card {
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  color:darkcyan;
+  font-weight: bold;
+}
+
+.card-text {
+  color:black;
+}
+
+/* About Section */
+.container img {
+  padding:1rem;
+  border-radius: 10%;
+}
+
+.container h2 {
+  color:crimson;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Contact Section */
+.bg-light {
+  background-color:#8a2be2;
+}
+
+.container.text-center h2 {
+  color:#8a2be2;
+}
+
+.btn-primary {
+  background-color: #f39c12;
+  border: none;
+}
+
+.btn-primary:hover {
+  background:black;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer p,
+footer a {
+  color: #ffffff;
+  margin: 0;
+}
+
+footer a:hover {
+  color: #f8c471;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .jumbotron {
+      padding: 1rem;
+  }
+
+  .jumbotron h1 {
+      font-size: 1.8rem;
+  }
+
+  .container h2 {
+      font-size: 1.5rem;
+  }
+}
